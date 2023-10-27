@@ -1,0 +1,45 @@
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px 50px;
+    box-shadow: 0px 0px 10px gray;
+}
+
+.logoSection {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    color: rgb(0, 167, 167);
+}
+
+span {
+    color: orangered;
+}
+
+
+.logo {
+    height: 40px;
+}
+
+.manuList {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: rgb(0, 167, 167);
+    font-weight: bold;
+    border: 2px solid transparent;
+    padding: 5px 10px;
+    border-radius: 5px;
+    transition: .5s;
+}
+
+a:hover {
+    color: orangered;
+    border: 2px solid orangered;
+}
